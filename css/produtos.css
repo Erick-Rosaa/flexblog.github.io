@@ -1,0 +1,41 @@
+.produtos-container {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1{
+    font-size: 40px;
+    margin: 0 20px 60px 20px;
+}
+
+.produto-imgs {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.produto-items {
+    margin: 0 10px 0 10px;
+    background: #f7f7f7;
+    flex: 1 1 175px;
+}
+
+
+.produto-items h1 {
+    color: #a4a4a4;
+    font-size: 50px;
+    padding: 40px 20px;
+}
+
+.purple {
+    border-top: solid 8px #ae81ff;
+}
+
+.pink {
+    border-top: solid 8px #f9265e;
+}
+
+.blue {
+    border-top: solid 8px #66d9eb;
+}

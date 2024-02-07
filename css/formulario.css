@@ -1,0 +1,48 @@
+.formulario {
+    display: flex;
+    background: #f7f7f7;
+    padding: 60px 122px;
+}
+
+.formulario-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 960px;
+    max-width: 960px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.formulario-desc h1 {
+    font-size: 40px;
+    color: #a4a4a4;
+}
+
+.formulario-desc p {
+    font-size: 24px;
+    font-style: italic;
+    color: #a4a4a4;
+    margin-top: 10px;
+}
+
+.formulario-form {
+    display: flex;
+    align-items: center;
+}
+
+.formulario-form input {
+    padding: 15px 10px;
+    font-size: 25px;
+    border: solid 4px #2c70ff;
+    margin: 0;
+}
+
+.formulario-form button {
+    padding: 15px 10px;
+    font-size: 25px;
+    border: solid 4px #2c70ff;
+    background: #2c70ff;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}

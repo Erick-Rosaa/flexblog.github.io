@@ -1,0 +1,46 @@
+.main-container{
+    height: 87vh;
+    display: block;
+}
+
+.container{
+    height: 85vh;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 8px;
+}
+
+.descricao{
+    font-size: 48px;
+    margin: 30px 0 50px 0;
+}
+
+.sobre-conatiner{
+    display: flex;
+    border-top: solid 3px #2c70ff;
+    border-bottom: solid 3px #2c70ff;
+    padding: 30px 0 50px 0;
+    flex-wrap: wrap;
+}
+
+.sobre-conatiner div{
+    margin: 8px;
+}
+
+.sobre-info{
+    flex: 2 1 300px;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+}
+
+.sobre-info h1{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.sobre-info p{
+    font-size: 19px;
+    color: #7c7c7c;
+}
